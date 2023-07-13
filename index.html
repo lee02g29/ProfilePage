@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyeji Lee Profile Page</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+        * {
+            font-family: "Pretendard",serif;
+            font-weight: 500;
+        }
+
+        a {
+            text-decoration: none;
+            color : inherit;
+        }
+        .main{
+            width:100vw;
+            height:100vh;
+        }
+        .side_bar {
+            float:left;
+            width:15vw;
+            height: 100vh;
+
+            background-color: #ff7f00;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .photo {
+            width:100px;
+            height:100px;
+
+            border-radius: 100%;
+
+            border : 2px solid white;
+            
+            background-image: url(주사위.jpg);
+            background-position: center;
+            background-size: cover;
+
+        }
+        .nick_name{
+            margin: 25px 0px 15px 0px;
+
+            color: white;
+            font-size: 30px;
+        }
+
+        .message{
+            margin: 7px 0px 35px 0px;
+
+            color: black;
+            font-size: 15px;
+        }
+
+        .menu {
+            margin: 8px 0px 20px 0px;           
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+            color: white;
+            font-size: 25px;
+            text-align: center;
+            
+        }
+
+        .about{
+            margin: 5px 0px 5px 0px;           
+        }
+
+        .contact {
+            margin: 5px 0px 5px 0px;
+        }
+
+        .board{
+            width:85vw;
+            height: 100vh;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .name {
+            font-size: 80px;
+
+            margin: 0px 0px 40px 0px;
+        }
+
+        .contacts {
+            font-size: 20px;
+            color: gray;
+
+            margin: 0px 0px 40px 0px;
+        }
+
+        .hp{
+            margin: 7px 0px 10px 0px;
+        }
+
+        .email1{
+            margin: 4px 0px 4px 0px;
+        }
+
+        .email2 {
+            margin: 4px 0px 4px 0px;
+        }
+
+        .greeting {
+            margin-bottom: 30px;
+
+            font-size: 30px;
+        }
+
+        .img {
+            width: 40px;
+            height: 40px;
+
+            margin: 20px 40px 20px 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="side_bar">
+            <div class="photo"></div>
+            <div class="nick_name">Hyeji Lee</div>
+            <div class="message"> Hello, World! </div>
+            <div class="menu">
+                <a href="index.html"> <div class="about"> about </div> </a>
+                <a href = "https://lee02g29.github.io/myProfilePage/" target="_blank"> <div class="contact"> contact </div> </a>
+            </div>
+        </div>
+
+        <div class="board"> 
+            <div class="warp">
+                <div class="name">Hyeji Lee</div>
+                <div class="contacts">
+                    <div class="hp"> +82 10-5779-0229</div>
+                    <div class="email1">lee02g29@gmail.com</div>
+                    <div class="email2">lee02g29@naver.com</div>
+                </div>
+                <div class="greeting"> 
+                    <p>
+                        안녕하세요! 이혜지라고 합니다. </br>
+                        프론트엔드 개발자를 꿈꾸고 있습니다. </br>
+                        아직 부족한 점이 많지만 꾸준히 하다보면 목표에 다다를 수 있다고 생각합니다. </br>
+                        앞으로도 노력하는 사람이 되겠습니다 :D </br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="icon">
+                <a href = "https://www.instagram.com/lee02g29" target="_blank"> <img class="img" src="instagram.svg"> </a>
+                <a href = "https://velog.io/@lee02g29" target="_blank"> <img class="img" src="velog.svg"> </a>
+                <a href = "https://github.com/lee02g29" target="_blank"> <img class="img" src="github.svg"> </a>
+                <a href = "https://lee02g29.github.io/myProfilePage/" target="_blank"> <img class="img" src="tree-svgrepo-com.svg"> </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
